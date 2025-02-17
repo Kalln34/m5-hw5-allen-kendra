@@ -7,7 +7,7 @@
 header {
     background: rgb(106, 146, 90);
     padding: 40px 0px;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid darkgreen;
 }
 
 .container {
@@ -109,7 +109,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    border-top: 2px solid orange;
+    border-top: 2px solid darkgreen;
 }
 
 footer p {
