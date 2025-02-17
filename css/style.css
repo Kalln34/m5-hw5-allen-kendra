@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    background: rgb(106, 146, 90);
+    padding: 40px 0px;
+    border-bottom: 2px solid lightgreen;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+    margin-top: -20px;
+    margin-left: 10px;
+    font-family: monospace;
+}
+
+body {
+    background-image:url(../images/leaves.png);
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 140%;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+    margin-right: 15px;
+    text-decoration: none;
+    border-right: 1px solid black;
+}
+
+
+main {
+    background-color: rgb(230, 214, 194);
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
+aside {
+    background-color: blanchedalmond;
+    float: right;
+    width: 20%;
+    padding: 20px;
+}
+
+aside img {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.links {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.subheading {
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    padding: 1px;
+    font-family: monospace;
+}
+
+footer {
+    clear: both;
+}
+
+.main-content {
+    margin: 30px auto;
+}
+
+.main-photo {
+    float: left;
+    margin: 15px 20px 10px 0;
+    width: 200px;
+    padding-top: 5px;
+}
+
+aside img {
+    box-shadow: 3px 3px 6px black;
+}
+
+footer {
+    background: rgb(106, 146, 90);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid lightgreen;
+}
+
+footer p {
+    font-size: 15px;
+}
